@@ -1,0 +1,27 @@
+.board-container {
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .cell {
+      flex: 0 0 24%;
+      height: 150px;
+      margin-bottom: 5px;
+      background-color: #999;
+      border-radius: 14px;
+      border: 2px solid #757575;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .value {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 3em;
+        color: aliceblue;
+      }
+    }
+  }
+}
